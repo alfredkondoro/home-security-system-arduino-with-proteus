@@ -7,7 +7,8 @@
 #define led2 7
 #define led3 8
 #define buzpin 0
-SoftwareSerial gsm(9, 11);
+SoftwareSerial gsm(11, 9
+);
 LiquidCrystal lcd(13, 12, 5, 4 , 3, 2);
 String phone="+255788092978";
 
